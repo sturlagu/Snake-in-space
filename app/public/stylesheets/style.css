@@ -1,0 +1,41 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: darkgreen;
+  font-size: 50px;
+}
+
+canvas {
+  border: 3px solid darkblue;
+  background-color: lightgray;
+}
+
+#gameScoreboard{
+  width: 1000px;
+  height: 125%;
+}
+
+p#scoreboardText{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 25px;
+  position: relative;
+}
+p#levelCounter{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: -16px;
+  position: absolute;
+}
+
+.levelCounter{
+  border: 3px solid darkblue;
+  width: 50px;
+  height: 25px;
+}

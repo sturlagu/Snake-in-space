@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  div#gameScoreboard
+    table
+      tr
+        td
+          p#scoreboardText
+        td#level1.levelCounter
+        td#level2.levelCounter
+        td#level3.levelCounter
+        td#level4.levelCounter
+        td#level5.levelCounter
+        td
+          p#levelCounter
+  h1 #{title} ~~~~~~0,0
+  script.
+    startGame();
