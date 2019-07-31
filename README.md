@@ -1,6 +1,7 @@
 # snakeProject
-Snake game i express Node.js
+Snake game in space
+Laget med express Node.js
 
-![Bildet av programvare](app/exampleImage\example.PNG?raw=true "Snake Game")
+![Bildet av programvare](exampleImage/example.PNG?raw=true "Snake Game")
 
 
